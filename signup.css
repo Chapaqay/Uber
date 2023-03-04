@@ -1,0 +1,38 @@
+.sign-up__option h2 {
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.sign-up__option {
+    border-bottom: 1px solid #000000;
+    padding-bottom: 40px;
+    padding-top: 80px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+
+.sign-up {
+    width: 100%;
+}
+
+.sign-up__options {
+    margin-top: 100px;
+}
+.sign-up__options>div {
+    width: 44%;
+    float: left;
+}
+
+.sign-up__option img {
+    transition: all 400ms ease;
+}
+
+.sign-up__option:hover img {
+    margin-left: 15px;
+}
